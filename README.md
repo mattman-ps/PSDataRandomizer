@@ -229,4 +229,4 @@ $contact = [PSCustomObject]@{
 
 ## Special Thanks
 
-- [dfinke] (https://github.com/dfinke) for putting together the [NameIT](https://github.com/dfinke/NameIT) repo!
+- [dfinke](https://github.com/dfinke) for putting together the [NameIT](https://github.com/dfinke/NameIT) repo!
