@@ -16,6 +16,19 @@ A PowerShell module for generating realistic random data for testing, developmen
    Install-Module -Name PSDataRandomizer -Scope CurrentUser
    ```
 
+## Requirements
+
+- PowerShell 5.1 or later
+- [NameIT](https://github.com/dfinke/NameIT) module (automatically checked at import)
+
+## Notes
+
+- All functions generate realistic data suitable for testing and demonstrations
+- Phone numbers follow NANP format and avoid reserved ranges
+- Addresses use USPS-standard street types and realistic naming patterns
+- Names support multiple cultures via the [NameIT](https://github.com/dfinke/NameIT) module
+- Data is randomly generated and not based on real individuals
+
 ## Functions
 
 ### Get-RandomAddress
@@ -214,15 +227,6 @@ $contact = [PSCustomObject]@{
 }
 ```
 
-## Requirements
+## Special Thanks
 
-- PowerShell 5.1 or later
-- NameIT module (automatically checked at import)
-
-## Notes
-
-- All functions generate realistic data suitable for testing and demonstrations
-- Phone numbers follow NANP format and avoid reserved ranges
-- Addresses use USPS-standard street types and realistic naming patterns
-- Names support multiple cultures via the NameIT module
-- Data is randomly generated and not based on real individuals
+- [dfinke] (https://github.com/dfinke) for putting together the [NameIT](https://github.com/dfinke/NameIT) repo!
