@@ -52,10 +52,10 @@
             Tags = @('Random', 'Data', 'Generator', 'Testing', 'Mock')
 
             # A URL to the license for this module.
-            # LicenseUri = ''
+            LicenseUri = 'https://github.com/mattman-ps/PSDataRandomizer/blob/main/LICENSE'
 
             # A URL to the main website for this project.
-            # ProjectUri = ''
+            ProjectUri = 'https://github.com/mattman-ps/PSDataRandomizer'
 
             # A URL to an icon representing this module.
             # IconUri = ''
