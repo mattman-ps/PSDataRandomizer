@@ -97,8 +97,8 @@ function Get-RandomAddress {
     )
 
     # Generate basic address components
-    $streetName = Get-Random -InputObject $$Global:StreetNames
-    $streetType = Get-Random -InputObject $$Global:StreetTypes
+    $streetName = Get-Random -InputObject $Global:StreetNames
+    $streetType = Get-Random -InputObject $Global:StreetTypes
 
     # Determine if we include direction (30% chance by default, 100% if forced)
     $includeDir = $IncludeDirection -or ((Get-Random -Maximum 100) -lt 30)
