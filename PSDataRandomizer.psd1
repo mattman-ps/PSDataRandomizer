@@ -29,10 +29,15 @@
     # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
     FunctionsToExport    = @(
         'Get-RandomAddress',
+        'Get-RandomCity',
+        'Get-RandomCompanyName',
         'Get-RandomDate',
+        'Get-RandomGuid',
         'Get-RandomPerson',
         'Get-RandomPhoneNumber',
+        'Get-RandomState',
         'Get-RandomWebsite',
+        'Get-RandomZipCode',
         'New-RandomContactList'
     )
 
